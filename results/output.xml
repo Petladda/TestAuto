@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-01-29T15:00:28.506535" rpa="false" schemaversion="5">
+<suite id="s1" name="Testauto" source="C:\Users\User\Downloads\Testauto">
+<suite id="s1-s1" name="Testcase" source="C:\Users\User\Downloads\Testauto\testcase.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-01-29T15:00:28.617571" level="INFO">Opening browser 'chrome' to base url 'http://automationexercise.com'.</msg>
+<arg>http://automationexercise.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-01-29T15:00:28.617571" elapsed="5.207954"/>
+</kw>
+<test id="s1-s1-t1" name="Register with valid info" line="20">
+<kw name="Click Products Element">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-01-29T15:00:33.828525" level="INFO">Clicking element '//*[@id="header"]/div/div/div/div[2]/div/ul/li[5]/a'.</msg>
+<arg>//*[@id="header"]/div/div/div/div[2]/div/ul/li[5]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-01-29T15:00:33.827525" elapsed="1.204085"/>
+</kw>
+<status status="PASS" start="2024-01-29T15:00:33.827525" elapsed="1.204085"/>
+</kw>
+<doc>Test the login functionality with valid credentials</doc>
+<status status="PASS" start="2024-01-29T15:00:33.825525" elapsed="1.206085"/>
+</test>
+<doc>Test Add Products in Cart Robot Framework</doc>
+<status status="PASS" start="2024-01-29T15:00:28.522536" elapsed="6.510075"/>
+</suite>
+<status status="PASS" start="2024-01-29T15:00:28.509535" elapsed="6.525076"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testauto">Testauto</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Testcase">Testauto.Testcase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
